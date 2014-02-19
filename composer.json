@@ -1,0 +1,22 @@
+{
+    "name": "mfeldheim/alwis",
+    "description": "Persistence Layer",
+    "require": {
+        "php": ">=5.4",
+        "phpunit/phpunit": "3.7.28",
+        "aws/aws-sdk-php": "2.4.*@dev"
+    },
+    "license": "Apache License Version 2.0",
+    "authors": [
+        {
+            "name": "Michel Feldheim",
+            "email": "m.feldheim@opendi.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "alwis": "src/"
+        }
+    }
+}
